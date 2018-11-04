@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
     brewery_id: DataTypes.INTEGER
   }, {});
   Beer.associate = function(models) {
-    Beer.belongsTo(models.Brewery);
+    Beer.belongsTo(models.Brewery, {foreignKey: 'brewery_id'});
   };
   return Beer;
 };

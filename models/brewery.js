@@ -6,7 +6,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   Brewery.associate = function(models) {
     Brewery.hasMany(models.Beer, {
-      foreignKey: 'beer_id',
+      foreignKey: 'brewery_id',
       as: 'beers',
     });
   };

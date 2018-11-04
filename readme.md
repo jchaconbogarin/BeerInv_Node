@@ -5,6 +5,7 @@ This project consists in the creation of a RESTful API for a beer inventory.
 # Resources
 
 - https://www.djamware.com/post/5b56a6cc80aca707dd4f65a9/nodejs-expressjs-sequelizejs-and-postgresql-restful-api
+- https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize
 
 # Initial Setup
 
