@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "beerinv",
+    "password": "insert_password_here",
+    "database": "beerinv_node_dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "beerinv",
+    "password": "insert_password_here",
+    "database": "beerinv_node_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "beerinv",
+    "password": "insert_password_here",
+    "database": "beerinv_node_prod",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
