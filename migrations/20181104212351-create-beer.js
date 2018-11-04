@@ -21,7 +21,8 @@ module.exports = {
         type: Sequelize.BOOLEAN
       },
       brewery_id: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references: { model: 'Breweries', key: 'id' }
       },
       createdAt: {
         allowNull: false,
